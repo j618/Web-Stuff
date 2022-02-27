@@ -1,0 +1,30 @@
+1. <?php $string = "In the images directory you received, you will find 5 images. On your page, create a carousel containing the images. The initialisation of the carousel should be in the init.js file. The requirements for the carousel are as follows:";
+    echo("Original String : ");
+  
+    echo($string . "\n");
+    echo("Modified String : ");
+  
+    $arr = str_split($string);
+  
+    for($i = 0; $i < 40; $i++) {
+        print($arr[$i]);
+    }
+?>
+2.<?php
+
+$one = "e3r4t5A";
+$result = preg_replace("/[^aA-zZ]+/", "", $one);
+echo $result;
+?>
+
+3.
+<?php
+
+
+$phrase  = "ard";
+$healthy = array("a", "r", "d");
+$yummy   = array("c", "m", "e");
+
+$newphrase = str_replace($healthy, $yummy, $phrase);
+echo $newphrase;
+?>
